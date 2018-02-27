@@ -1,0 +1,44 @@
+.slide-image{
+  height: 207px;
+  width: 100%;
+}
+#location{
+  background:	#DCDCDC;
+  border:1px solid 	#DCDCDC;
+  border-radius: 3px;
+  font-size: 12px;
+  width: 62px;
+  height: 25px; 
+  overflow: hidden;
+}
+#location text{
+  line-height: 25px; 
+  float: left;
+  margin-left: 5px;
+  color: #666;
+}
+#location image{
+  width: 11px;
+  height: 13px;
+  margin-left: 4px;
+  margin-top:5px;
+  float: left;
+}
+#search{
+   width: 76%;
+  height: 25px;
+  border:1px solid #999;
+  border-radius: 3px;
+  padding: 0; 
+}
+#search image{
+  width: 15px;
+  height: 14px;
+  margin:4px 6px;
+   float: left; 
+}
+#search input{
+  width: 85%;
+  height: 1rem;
+  float: left
+}

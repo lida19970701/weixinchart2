@@ -1,0 +1,7 @@
+<view class='top_con'>
+  <view class='icon'>
+    <image src='../../public/images/wenzi.jpg'></image>
+  </view>
+  <view class='allWorks'>全部作品</view>
+  <view class='dropDown'>下拉显示最新作品</view>
+</view>

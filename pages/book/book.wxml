@@ -1,0 +1,62 @@
+<view>
+  <view>
+    <swiper indicator-dots="{{indicatorDots}}"autoplay="{{autoplay}}" interval="{{interval}}"     duration="{{duration}}" circular="{{circular}}">
+      <block wx:for="{{imgUrls}}" wx:key="title">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+</view>
+<view id='select3'>
+  原创分类
+</view>
+<view id="select">
+  <view class='container'>
+    <view class='sp1' bindtap='allWorks'>
+      <image src='https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2240949022,1335459187&fm=27&gp=0.jpg '></image>
+      <text>全部作品</text>
+    </view>
+    <view class='sp1' bindtap='classical'>
+       <image src='https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2843662502,1569266612&fm=27&gp=0.jpg'></image>
+      <text>古典诗词</text>
+    </view>
+    <view class='sp1' bindtap='moderm'>
+       <image src='https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3596054195,3239489977&fm=27&gp=0.jpg'></image>
+      <text>现代诗歌</text>
+    </view>
+  </view>
+  <view class='container' id="select_three">
+    <view class='sp1 sp2' bindtap='essay'>
+      <image src='https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3546546478,355697262&fm=27&gp=0.jpg'></image>
+      <text>散文随笔</text>
+    </view>
+    <view class='sp1 sp2' bindtap='other'>
+       <image src='https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3596054195,3239489977&fm=27&gp=0.jpg'></image>
+      <text>其他体裁</text>
+    </view>
+    <view class='sp1 sp2' bindtap='search'>
+       <image src='https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3546546478,355697262&fm=27&gp=0.jpg'></image>
+      <text>作品搜索</text>
+    </view>
+  </view>
+</view>
+<view class='menu container'>
+  <view bindtap='home2'>
+    <image src='../../public/images/home2.png'></image>
+    首页
+  </view>
+  <view bindtap=''>
+   <image src='../../public/images/rankingList.png'></image>
+    排行榜
+  </view>
+  <view bindtap='startWriting'>
+    <image src='../../public/images/creation.png'></image>      
+    开始创作
+  </view>
+  <view bindtap=''>
+    <image src='../../public/images/personalCenter.png'></image>
+    个人中心
+  </view>
+</view>

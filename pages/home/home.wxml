@@ -1,0 +1,59 @@
+<!-- <view class="phone_one" bindtap="clickPerson">
+ <view class="phone_personal">{{firstPerson}}</view>
+ <image src="../../public/images/fengnv.jpg" class="personal_image {{selectArea ? 'rotateRight' :''}}"></image> //三目法判断图片要不要旋转180。
+ </view> -->
+<!-- <button bindtap="clickPerson">选项</button>
+<view class="person_box">
+  <view class="phone_select" hidden="{{selectPerson}}">
+  <view class="select_one" bindtap="mySelectA" data-me="你好">你好</view>
+  <view class="select_one" bindtap="mySelect" data-me="他好">他好</view>
+  <view class="select_one" bindtap="mySelect" data-me="大家好">大家好</view>
+ </view>
+ </view> -->
+
+<button bindtap='chickPerson' >选项</button>
+<view>
+  <view hidden="{{selectPerson}}">
+    <view class='select_one' bindtap='mySelectA'>英雄联盟</view>
+    <view class='select_one' bindtap='mySelectB'>生活养生</view>
+    <view class='select_one' bindtap='mySelectC'>陌上花开</view>
+  </view>
+</view>
+<view>
+  <view class='container' id="select_one">
+      <view class="sp1">
+        <image src='../../public/images/game.png' class='img_home' bindtap='game'></image>
+        <text class='text_top'>游戏</text>
+      </view>
+      <view class="sp1 sp2" bindtap="book">
+        <image src='../../public/images/book.png' style='height:34px;'></image>
+        <text>文艺</text>
+      </view>
+      <view class="sp1" bindtap='tourism'>
+        <image src='../../public/images/tourism.png' ></image>
+        <text style='margin-top:1px;display:block'>旅游</text>
+      </view>
+      <view class="sp1">
+        <image src='../../public/images/shopping.png'></image>
+        <text>购物</text>
+      </view>
+  </view>
+    <view class='container' id="select_two">
+      <view class="sp1">
+        <image src='../../public/images/health.png' class='img_home' ></image>
+        <text class='text_top'>养生</text>
+      </view>
+      <view class="sp1">
+        <image src='../../public/images/food.png'></image>
+        <text>美食</text>
+      </view>
+      <view class="sp1 ">
+        <image src='../../public/images/travel.png' ></image>
+        <text>出行</text>
+      </view>
+      <view class="sp1 ">
+        <image src='../../public/images/stock.png'></image>
+        <text>股票</text>
+      </view>
+  </view>
+</view>

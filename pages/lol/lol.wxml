@@ -1,0 +1,63 @@
+
+<view>
+  <swiper indicator-dots="{{indicatorDots}}"autoplay="{{autoplay}}" interval="{{interval}}"     duration="{{duration}}" circular="{{circular}}">
+    <block wx:for="{{imgUrls}}" wx:key="title">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class="container">
+   <view id="icon" class='icon '>
+    <image src="../../public/images/lol.jpg" ></image>
+    <text>最强王者</text>
+  </view>
+  <view  class='icon '>
+      <image src="../../public/images/baijin.jpg"></image>
+      <text>华贵铂金</text>
+  </view>
+  <view  class='icon '>
+      <image src="../../public/images/zuanshi.jpg"></image>
+      <text>璀璨钻石</text>
+  </view>
+</view>
+<view id="mid_con">
+    <text class='redian'>热点</text>
+    <swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}" vertical="{{vertical}}" id="redian">
+    <block wx:for="{{content}}" wx:key="title">
+      <swiper-item>
+        <text>{{item}}</text>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view>
+  <view wx:for="{{image}}" wx:key="title">
+        <image src="{{item}}" class="img2"></image>
+  </view>
+</view>
+<view  hover="false" hover-class='a' id="caozuo" class="container">
+  <view class="sp1">
+    <image src='../../public/images/home.png' class='img_home' ></image>
+    <text class='text_top'>首页</text>
+  </view>
+  <view class="sp1">
+    <image src='../../public/images/fenlei.png'></image>
+    <text>全部分类</text>
+  </view>
+  <view class="sp1">
+    <image src='../../public/images/car.png'></image>
+
+    <text>购物车</text>
+  </view>
+  <view class="sp1">
+    <image src='../../public/images/people.png'></image>
+    <text>皮肤</text>
+  </view>
+  <view class="sp1" bindtap='member'>
+    <image src='../../public/images/home.png' class='img_home'></image>
+    <text class='text_top'>QQ会员</text>
+  </view>
+</view>

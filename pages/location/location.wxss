@@ -1,0 +1,21 @@
+#txt{
+  /* display:inline; */
+  color:#666;
+  font-size:12px;
+  width: 96%;
+  margin: 10px 5px;
+}
+.txt{
+  padding: 3px;
+  margin-left: 10px;
+  border:1px solid #DCDCDC;
+  border-radius: 3px;
+  /* margin-left: 10px; */
+  font-family: "楷体";
+}
+.hide{
+ display: none;
+}
+.show{ 
+ display: block;
+}

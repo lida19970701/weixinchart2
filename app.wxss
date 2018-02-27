@@ -1,0 +1,27 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  /* 弹性布局 */
+  display: flex;
+  /* 垂直居中 */
+  flex-direction: column;
+  /* 水平居中 */
+  align-items: center;
+  /* 弹性项目平均分布在该行上。如果剩余空间为负或者只有一个弹性项，则该值等同于flex-start。否则，第1个弹性项的外边距和行的main-start边线对齐，而最后1个弹性项的外边距和行的main-end边线对齐，然后剩余的弹性项分布在该行上，相邻项目的间隔相等 */
+  justify-content: space-between;
+  padding: 10rpx 0;
+  box-sizing: border-box;
+} 
+navigationBarTitleText{
+  font-size: 20px;
+}
+.blank{
+  width: 100%;
+  height: 15px;
+  background:#dfdbdc;
+}
+.container{
+display:flex;
+flex-direction: row;
+ padding: 8px 10px; 
+}

@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/Tourism/Tourism",
+    "pages/location/location",
+    "pages/book/book",
+    "pages/essayDetails/essayDetails",
+    "pages/allWorks/allWorks",
+    "pages/classical/classical",
+    "pages/moderm/moderm",
+    "pages/other/other",
+    "pages/search/search",
+    "pages/writing/writing",
+    "pages/essayAndEssay/essayAndEssay",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/lol/lol"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "wechatApp",
+    "navigationBarTextStyle": "black",
+    "backgroundTextStyle": "dark"
+  }
+}

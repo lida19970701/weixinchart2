@@ -1,0 +1,36 @@
+ <view style='font-size:12px;color:#666;margin-left:13px;'>请选择省份</view>
+<view style='width=100%;height:1px;background:	#DCDCDC;margin:6px auto;'></view>
+
+
+ <view  id="txt"> 
+  <text class='txt' wx:for="{{l}}" wx:key="title" bindtap="aaaa" id='{{item}}'>{{item}}</text>
+ </view> 
+ <view  id="txt"> 
+  <text class='txt' wx:for="{{lo}}" wx:key="title" >{{item}}</text>
+ </view> 
+ <view  id="txt"> 
+  <text class='txt' wx:for="{{loc}}" wx:key="title" >{{item}}</text>
+ </view> 
+ <view  id="txt"> 
+  <text class='txt' wx:for="{{loca}}" wx:key="title" >{{item}}</text>
+ </view> 
+ <view  id="txt"> 
+  <text class='txt' wx:for="{{locat}}" wx:key="title" >{{item}}</text>
+ </view> 
+ <view  id="txt"> 
+  <text class='txt' wx:for="{{locati}}" wx:key="title" >{{item}}</text>
+ </view> 
+ <view  id="txt"> 
+  <text class='txt' wx:for="{{locatio}}" wx:key="title" >{{item}}</text>
+ </view> 
+ <view  id="txt"> 
+  <text class='txt' wx:for="{{location}}" wx:key="title" >{{item}}</text>
+ </view> 
+ <view  id="txt"> 
+  <text class='txt' wx:for="{{locations}}" wx:key="title" >{{item}}</text>
+ </view> 
+
+
+
+
+

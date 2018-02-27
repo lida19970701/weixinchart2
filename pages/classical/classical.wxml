@@ -1,0 +1,18 @@
+<view class='top_con'>
+  <view class='icon'>
+    <image src='../../public/images/wenzi.jpg'></image>
+  </view>
+  <view class='allWorks'>古典诗词</view>
+  <view class='dropDown'>下拉显示最新作品</view>
+</view>
+  <view class='container allWorkss' wx:for="{{con}}" wx:key="title" id="{{item._id}}" bindtap='essayDetails'>
+    <view class='sp1'>
+      <image src='{{item.avatarUrl}}' name="imgUrl"></image>
+    </view> 
+    <view class='sp2'  formType="submit">
+        <text class='txt1' name="onename" data-index="{{index}}">{{item.name}}</text>
+        <text class='txt2' name="firstname">作者：{{item.myName}}</text>
+        <text class='txt2' name="content">{{item.content}}</text>
+        <text class='txt3' name="createTime">创作时间：{{item.createAt}}</text>
+    </view>
+  </view>

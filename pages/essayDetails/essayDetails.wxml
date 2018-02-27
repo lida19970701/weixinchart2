@@ -1,0 +1,10 @@
+<view wx:for="{{detail}}" id='detail' wx:key="title">
+  <view id="top_con">
+    <image src='{{item.avatarUrl}}' ></image>
+    <view class='myName'>{{item.myName}}</view>
+  </view>
+  <view id='bot_con'>
+    <view class='name'>{{item.name}}</view>
+   <view class='content'>{{item.content}}</view>
+  </view>
+</view>

@@ -1,0 +1,98 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx; 
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+ .usermotto {
+  margin-top: 200px;
+} 
+.slide-image{
+  width: 100%;
+  height: 100%;
+}
+swiper{
+  height: 200px;
+}
+/* .container{
+display:flex;
+flex-direction: row;
+ padding: 8px 10px; 
+} */
+.icon{
+  width: 92px;
+  text-align: center;
+}
+.icon image{
+  width: 90px;
+  height: 85px;
+  /* border-radius: 20px; */
+}
+
+#mid_con{
+  border:1px solid #000;
+}
+#mid_con .redian{
+width: 20%;
+height: 30px;
+border-right: 1px solid #000;
+}
+#mid_con text{
+  width: 50%;
+  float: left;
+}
+#redian{
+  height: 30px;
+  overflow: hidden;
+}
+.img2{
+  width: 100%;
+  height: 200px;
+}
+
+
+#caozuo{
+  position: fixed;
+  width: 100%;
+  height:60px;
+   background:#fff; 
+  border-top: 1px solid #dfdbdc;
+  top:91%;
+  /* bottom:8%; */
+  left: 0%;
+  overflow: hidden;
+}
+#caozuo image {
+  width: 20px;
+  height: 20px;
+}
+#caozuo .img_home{
+  width: 25px;
+  height: 25px;
+}
+#caozuo .sp1{
+  width: 62px;
+  padding-top: 0;
+  margin-top: 0;
+  font-size:12px;
+  text-align: center
+}
+.text_top{
+  margin-top: -4px;
+}
+.sp1 text{
+  padding-top: 3px;
+  display: block
+}

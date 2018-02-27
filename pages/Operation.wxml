@@ -1,0 +1,13 @@
+home是小程序的首页
+  book是文艺写作的首页{
+    allWorks是文艺中的全部作品
+    classical是文艺中的古典诗词 
+    moderm是文艺中现代诗歌
+    essayAndEssay是所有散文随笔作品 '
+    essayDetails是作品详情
+    other是文艺中的其他体裁
+    search是文艺中的作品搜索
+    writing是文艺中的开始创作
+    
+  }
+  

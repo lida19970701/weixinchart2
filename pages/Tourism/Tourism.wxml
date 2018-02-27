@@ -1,0 +1,20 @@
+
+<view>
+  <swiper indicator-dots="{{indicatorDots}}"autoplay="{{autoplay}}" interval="{{interval}}"     duration="{{duration}}" circular="{{circular}}" style='height:190px;'>
+    <block wx:for="{{imgs}}" wx:key="title">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class='container'>
+  <view id="location" bindtap='location'>
+     <image src='../../public/images/location.png'></image> 
+    <text>北京市</text>
+  </view>
+  <view id='search'>
+      <image src="../../public/images/search.png"></image>
+       <input placeholder='输入搜索 ' placeholder-style="font-size:12px"></input>
+  </view>
+</view>
